@@ -1,23 +1,22 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 :root {
-  --dark: #7070707;
+  --dark: #070707;
   --sizeindex: calc(1vw+1vh);
 }
-
 @font-face {
   font-family: raleway_m;
-  src: url(../src/fonts/raleway-v22-cyrillic-300.woff2);
+  src: url(../fonts/raleway-v22-cyrillic-300.woff2);
   font-weight: 300;
 }
 
 @font-face {
   font-family: raleway_m;
-  src: url(../src/fonts/raleway-v22-cyrillic-900.woff2);
+  src: url(../fonts/raleway-v22-cyrillic-900.woff2);
   font-weight: 900;
 }
 
@@ -30,4 +29,9 @@ html {
   font-family: raleway_m, sans-serif;
   overflow: hidden;
   line-height: 1.8;
+}
+
+.slider {
+  height: 100%;
+  transform: rotateX(15deg);
 }
